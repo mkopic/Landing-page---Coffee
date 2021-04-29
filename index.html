@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="flower.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+        <div class="wraper">
+          <a href="#container"
+            ><img id="header-img" src="./img/logo.png" alt="Logo"
+          /></a>
+          <nav id="nav-bar">
+            <ul>
+              <li id="nav-link"><a href="#sorts">Sorts</a></li>
+              <li id="nav-link"><a href="#aboutCoffe">About Coffee</a></li>
+              <li id="nav-link"><a href="#aboutUs">About Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="content">
+        <h1>Let’s talk about <span>Coffee</span></h1>
+        <p>
+          Prepared from roasted coffee beans.<br />
+          The traditional method of planting coffee.
+        </p>
+        <button class="btn" href="">Find More</button>
+      </div>
+    </div>
+
+    <section id="sorts">
+      <div class="together">
+        <div class="flower">
+          <div class="petal-1"></div>
+          <div class="petal-2"></div>
+          <div class="petal-3"></div>
+          <div class="petal-4"></div>
+          <div class="petal-5"></div>
+          <div class="petal-6"></div>
+        </div>
+        <h2>Sorts</h2>
+      </div>
+      <div class="row-sorts">
+        <div class="col -1">
+          <img
+            class="pic-desc"
+            src="./img/pic-1.png"
+            alt="Pictures of Arabesca Coffee"
+          />
+          <div class="img-desc">
+            <p>
+              Arabica coffee comes from the beans of a Coffea arabica plant,
+              which originated in Ethiopia.
+            </p>
+          </div>
+        </div>
+        <div class="col -2">
+          <img
+            class="pic-desc"
+            src="./img/pic-2.png"
+            alt="Pictures of Robusta Coffe"
+          />
+          <div class="img-desc">
+            <p>
+              Robusta Coffee is coffee made from the beans of the Coffea
+              canephora plant, the origins of which are in Africa.
+            </p>
+          </div>
+        </div>
+        <div class="col -3">
+          <img
+            class="pic-desc"
+            src="./img/pic-3.png"
+            alt="Pictures of other sorts Coffee"
+          />
+          <div class="img-desc">
+            <p>
+              Other species of coffee exist and contain unique varieties (Barako
+              coffee, a Liberica variety from Philippines).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Coffe  -->
+    <section id="aboutCoffe">
+      <div class="together">
+        <div class="flower">
+          <div class="petal-1"></div>
+          <div class="petal-2"></div>
+          <div class="petal-3"></div>
+          <div class="petal-4"></div>
+          <div class="petal-5"></div>
+          <div class="petal-6"></div>
+        </div>
+        <h2>About Coffee</h2>
+      </div>
+      <div class="row-sorts">
+        <div class="col-left">
+          <div class="video-box">
+            <iframe
+              id="video"
+              src="https://www.youtube.com/embed/N8meCjVsJWI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-right">
+          <div class="video-desc">
+            <p>
+              Chandler Graf has a deep passion and appreciation for the
+              integration of science in the art of brewing coffee.<br /><br />
+              Watch a great video, Chandler’s TEDxACU talk.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us  -->
+    <section id="aboutUs">
+      <div class="together">
+        <div class="flower">
+          <div class="petal-1"></div>
+          <div class="petal-2"></div>
+          <div class="petal-3"></div>
+          <div class="petal-4"></div>
+          <div class="petal-5"></div>
+          <div class="petal-6"></div>
+        </div>
+        <h2>About Us</h2>
+      </div>
+      <p>If you want to find out more, send us an email.</p>
+      <div class="row-sorts aboutUs">
+        <div class="col">
+          <div class="form">
+            <form
+              id="form"
+              action="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+            >
+              <label for="name">Name</label><br />
+              <input
+                id="name"
+                type="text"
+                name="name"
+                placeholder="Enter your Name"
+              /><br />
+              <label for="email">E-mail</label><br />
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="Enter your E-mail"
+                required
+              /><br />
+              <label for="textarea">Write a message</label><br />
+              <textarea id="textarea" name="textarea" rows="5"></textarea><br />
+              <input id="submit" type="submit" value="Send" />
+            </form>
+          </div>
+        </div>
+        <div class="col pic-4">
+          <div class="img-box">
+            <img src="./img/pic-4.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section id="footer">
+      <div class="icons">
+        <button class="icon" href="">
+          <i class="fab fa-facebook-f"></i>
+        </button>
+        <button class="icon" href="">
+          <i class="fab fa-linkedin-in"></i>
+        </button>
+        <button class="icon" href="">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button class="icon" href="">
+          <i class="fab fa-instagram"></i>
+        </button>
+      </div>
+      <div class="footer-p">
+        <p>FreeCodeCamp-Product Landing Page | mkopic</p>
+      </div>
+    </section>
+  </body>
+</html>
